@@ -1,6 +1,7 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  /** My Revisions **/
   align-items: center;
 }
 
@@ -8,40 +9,39 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
-  position: absolute;
+  /** My Revisions **/
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  /** My Revisions **/
   font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 8px;
   padding: 8px;
-  margin: 8px;
 }
 
 .content {
   background: #e3f4ff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin: 8px;
+  /** My Revisions **/
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
-  margin: 8px;
+  /** My Revisions **/
+  padding: 8px;
   text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  /** My Revisions **/
+  padding: 8px 24px;
   display: block;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
